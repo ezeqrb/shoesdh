@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style-loginregister.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Login</title>
+</head>
+<body>
+    
+<form action="/login" method="POST" id="form">
+    <div class="contact-form">
+        <% if (msg){ %>
+            <span> <%= msg %> </span>
+        <% } %>
+        <div class="logo">
+            <h1>Ingresar</h1>
+        </div>
+        
+        <div>
+            <div class="input-fields">
+                <input type="text" class="input" id="email" placeholder="Email"  name="email">
+                <input type="password" class="input" id="pw" placeholder="Contraseña"  name="passcrypt">
+            </div>
+
+            <div class="forget">
+                <a href="" class="forget">
+                    <h3>¿Olvidaste tu contraseña?</h3>
+                </a> 
+            </div>
+        </div>
+        
+        <div class="send">
+            <input type="submit" class=button value="INGRESAR" >
+        </div>
+        
+        <div class="social">
+            <h3>O ingresá con:</h3>
+            <ul>   
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter-square"></a></i></li>
+                <li><a href=""><i class="fab fa-google-plus"></a></i></li>
+            </ul>
+        </div>
+        <div class="regrister">
+            <h3>Registrate con tu e-mail</h3>
+            <h3><a href="/register">REGISTRATE</a></h3>
+
+        </div>
+            
+    </div>
+</form>
+
+    <script src="../javascripts/formularioLogin.js"></script>
+
+
+</body>
+</html>

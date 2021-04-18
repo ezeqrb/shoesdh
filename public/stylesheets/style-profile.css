@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-content{
+    width: 400px;
+   
+}
+
+.adminButtons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.adminButtons button{
+    margin: 10px;
+}
+
+<<<<<<< Updated upstream
+.turn-blue:hover{
+    background-color:#0d6efd;
+    color: white;
+    
+}
+=======
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+>>>>>>> Stashed changes

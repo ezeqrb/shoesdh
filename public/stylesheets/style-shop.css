@@ -1,0 +1,62 @@
+
+
+
+
+.content{
+    display:flex;
+    
+    
+}
+
+
+aside{
+    padding-top: 50px;
+    width: 30%;
+    position: sticky;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+aside h3{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    
+    max-width: 70%;
+    box-sizing: border-box;
+    
+    
+}
+.cards{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pags{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.vermas{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    
+}

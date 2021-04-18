@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style-product.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Vista Producto</title>
+</head>
+<body>
+    
+    <header>
+        <%- include("./partials/header.ejs")%>
+        <!-- <div class="box2">
+            <div class="enviogratis">
+                <h3>Envio gratis apartir de $2500</h3>
+            </div>
+        </div>
+
+        
+        <div class="box1">
+            
+            <div class="logo">
+                <img src="/images/LOGO.PNG" alt="sport.limits" width="70%">
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">NOVEDADES</a></li>
+                    <li><a href="#">HOMBRE</a></li>
+                    <li><a href="#">MUJER</a></li>
+                    <li><a href="#">NIÑOS</a></li>
+                    <li><a href="#">MARCAS</a></li>
+                </ul>
+            </nav>
+
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="text" class="buscar" placeholder="Buscá tu producto">
+            </div>
+
+            <div class="menu">
+                <i class="fas fa-user"></i><a class="entrar" href="">Entrar</a>
+                <i class="fas fa-shopping-cart"></i><a class="carrito" href="">Carrito</a>
+                <i class="fas fa-heart"></i><a class="deseados" href="">Deseados</a>
+            </div>
+
+        </div>-->
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="caja1">
+                <div class="imagen">
+                    <video src="/images/video.mp4" alt="video" autoplay muted loop>
+                </div>
+                <div class="opciones">
+                    <div class="titulo"><h1>Zapatillas de running UA HOVR™ Phantom 2 para hombre</h1></div>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="color-container">
+                        <div class="texto">
+                            <h3>Color</h3>
+                        </div>
+                        <div class="colores">
+                            <span class="color" color="rojo"></span>
+                            <span class="color" color="azul"></span>
+                            <span class="color" color="verde"></span>
+                            <span class="color" color="naranja"></span>
+                            <span class="color" color="negro"></span>
+                        </div>
+                    </div>
+                    <div class="talle-container">
+                        <div class="talle">
+                             <h3>Talle</h3>
+                        </div>
+                        <div class="numeros">
+                            <ul>
+                                <li>39</li>
+                                <li>40</li>
+                                <li>41</li>
+                                <li>42</li>
+                                <li>43</li>
+                                <li>44</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="agregar-container">
+                        <div class="agregar">
+                            <h3>Agregar al carro</h3>
+                        </div>
+                        <div class="cantidad">
+                            <select name="cantidad">
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                            </select>
+                        
+                            <button>Agregar al carro</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="caja2">
+                <div class="descripcion">
+                    <h2>Descripción</h2>
+                    <p>Malla de compresión Energy Web que contiene y moldea la espuma UA HOVR™ para devolver la energía utilizada
+                        Parte superior de punto específicamente diseñada para aportar elasticidad y sujeción donde más la necesitas con el ajuste y la comodidad de un calcetín
+                        Panel moldeado en el antepié para añadir estructura y amortiguación en el interior
+                        Plantilla SpeedForm® 2.0 ultratranspirable integrada en las zapatillas para una sujeción más cómoda en la planta del pie</p>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include("./partials/footer")%>
+        
+    </body>
+    </html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'oswald', sans-serif;
+}
+
+body{
+    background-image: url(/images/bgw.jpg);
+    background-size: cover ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form{
+
+    background: rgb(243, 243, 243);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+  
+    width: 350px;
+    height: 500px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input-fields input{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0px , 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #616161;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.input-fields input:focus{
+    
+    border-bottom: 2.5px solid  #d6002a ;
+   
+}
+.send{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.button {
+    transition-duration: 0.5s;
+    padding: 5px 100px;
+    border-radius: 17px;
+   border: 1px solid grey;
+   font-size: 15px;
+   margin-top:30px;
+}
+  
+.button:hover {
+    background-color: #d6002a; /* Green */
+    color: white;
+    
+}
+
+::-webkit-input-placeholder{
+color: #616161;
+
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 30px;
+    width: 50%;
+    list-style:none;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.fab fa-facebook-square{
+    color: #3b5998;
+}
+a{
+    color:#d6002a
+    
+}
+
+alert {
+    
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+.header-container{
+    width:100vw;
+   
+    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    position: fixed;
+    z-index: 99999;
+    display: block;
+    border-bottom: solid rgb(218, 218, 218) 1px;
+
+}
+
+.box1{
+    padding: 20px;
+    
+}
+.header-container nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.header-container nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+.header-container nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.header-container a{
+    text-decoration: none;
+    color: #555;
+
+}
+.header-container a:hover{
+    text-decoration: solid;
+
+}
+
+.header-container p{
+    color: #555;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.column1{
+    flex-basis:50%;
+    min-width: 300px;
+}
+.column1 img{
+    max-width:100% ;
+    padding: 50px 0;
+}
+.column1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin:25px 0;
+
+}
+
+.button{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius:30px ;
+    transition: background 0.5s;
+
+}
+.button:hover{
+    background: #563434;
+}
+
+.big{
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+/* Dropdown Button */
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -200%;
+    
+    min-width: 160px;
+  
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  
+  }
+  
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .circle {
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #000;
+    position: absolute;
+    top: -25%;
+    left: 90%;
+  }
+
+.carrito{
+    position: relative;
+}

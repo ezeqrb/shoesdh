@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+    <%- include("./partials/header.ejs")%>
+    <main>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>Lista de productos:</p>
+        <% if (productsDB.length >0){ %>
+            <ul>
+            <% for (let i = 0 ; i < productsDB.length; i++){ %>
+                <li><a href="/products/<%=productsDB[i].Id %>"><%= productsDB[i].Name %></a> </li>
+            <% } %>
+            </ul>
+        <% }else{ %>
+            <h5>No hay productos para mostrar</h5>
+        <% } %>
+
+    </main>
+    <%- include("./partials/footer")%>
+    </body>
+</html>
+
+<!--Chequear mayusculas/minusculas en productsDB.Id y .Name si no funciona -->
